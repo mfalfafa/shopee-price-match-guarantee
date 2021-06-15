@@ -1,15 +1,17 @@
 # Shopee - Price Match Guarantee 
 
+
 ## Introduction
 
 The aim of this competition is to predict which items are the same products. This is source code/solution to get the Silver Medal in [Shopee - Price Match Guarantee](https://www.kaggle.com/c/shopee-product-matching/). 
 
+![Alt text](shopee-pmg-solution.png?raw=true "Shopee - Price Match Guarantee Solution")
 
 ## Disclaimer
 
 * This is our work, we **DO NOT** represent any organization
 * There's no reproducibility guarantee for notebook which uses GPU and TPU
-* Although we use License "The Unlicense", dataset and generated dataset falls under Shopee Terms and Conditions which can be seen on [Kaggle Datasets](https://www.kaggle.com/c/shopee-product-matching/data)
+* Dataset and generated dataset falls under Shopee Terms and Conditions which can be seen on [Kaggle Datasets](https://www.kaggle.com/c/shopee-product-matching/data)
 
 
 ## Environment List
@@ -23,7 +25,7 @@ The aim of this competition is to predict which items are the same products. Thi
 | Kaggle TPU       | 2C/4T CPU, 16GB RAM, TPU v3-8          |
 
 
-## Notebook description
+## Notebook Description
 
 | Filename           | Link to Kaggle Kernel                                                                      | Environment | Description                                                                                             |
 | ------------------ | ------------------------------------------------------------------------------------------ | ----------- | ------------------------------------------------------------------------------------------------------- |
@@ -32,13 +34,13 @@ The aim of this competition is to predict which items are the same products. Thi
 | nf-net-f0.ipynb      | https://www.kaggle.com/mfalfafa/shopee-nf-net-all-training         | Kaggle TPU  | Create multimodal model with NFNet-F0 pretrained model using image size 512x512 pixel with MLP                                                             |
 | nf-net-f1.ipynb      | https://www.kaggle.com/mfalfafa/shopee-nf-net-f1-all-training  | Kaggle TPU  | Create multimodal model with NFNet-F1 pretrained model using image size 512x512 pixel with MLP                                                            |
 | roberta-base-id.ipynb      | https://www.kaggle.com/mfalfafa/shopee-roberta-base-id-all-training  | Kaggle TPU  | Create multimodal model with RoBERTa-Base-Id pretrained model with MLP                                                            |
-| tfrecord-512-gen.ipynb      | https://www.kaggle.com/mfalfafa/shopee-tfrecord-512-all         | Kaggle CPU  | Generate TFRecord with image size 512x512 pixel for training Images                                                                              |
-| text-cleaner.ipynb      | https://www.kaggle.com/mfalfafa/shopee-text-cleaner-for-roberta-base-id-all         | Kaggle CPU  | Text preprocessing for BERT model                                                                              |
-| text-vectorizer.ipynb      | https://www.kaggle.com/mfalfafa/text-vectorizer-for-all-training         | Kaggle CPU  | Generate vectorized text for MLP model                                                                              |
+| tfrecord-512-gen.ipynb      | https://www.kaggle.com/mfalfafa/shopee-tfrecord-512-all         | Kaggle CPU  | Generate TFRecord with image size 512x512 pixel for training of image model Images                                                                              |
+| text-cleaner.ipynb      | https://www.kaggle.com/mfalfafa/shopee-text-cleaner-for-roberta-base-id-all         | Kaggle CPU  | Create text preprocessing for BERT model                                                                              |
+| text-vectorizer.ipynb      | https://www.kaggle.com/mfalfafa/text-vectorizer-for-all-training         | Kaggle CPU  | Create vectorized text for MLP model                                                                              |
 | final-solution.ipynb      | https://www.kaggle.com/mfalfafa/shopee-final-solution         | Kaggle GPU  | Final solution for product predictions. This notebook used for submission                                                                              |
 
 
-## Generated models
+## Generated Models
 
 The models are generated using training notebooks. This models can be used to make quick submission using final-solution notebook.
 
@@ -51,7 +53,7 @@ The models are generated using training notebooks. This models can be used to ma
 | roberta-base-id.ipynb      | `RoBERTa + MLP with ArcMargin`          | https://www.kaggle.com/mfalfafa/shopee-roberta-base-id                                  |
 
 
-## Dependency datasets
+## Dependency Datasets
 
 Dependency datasets are used for training the model and submitting the solution.
 
@@ -72,7 +74,7 @@ Dependency datasets are used for training the model and submitting the solution.
 
 ## Reproducibility Guide
 
-> This guide assume you have necessary files (full dataset provided by Shopee), move it to correct directory path and run it on Kaggle Notebook.
+> This guide assume you have necessary files (full dataset provided by Shopee and dependency datasets), move it to correct directory path and run it on Kaggle Notebook.
 
 1. Run `text-vectorizer.ipynb`, `text-cleaner.ipynb`
 2. Run `tfrecord-512-gen.ipynb`
