@@ -56,7 +56,7 @@ The models are generated using training notebooks. This models can be used to ma
 Dependency datasets are used for training the model and submitting the solution.
 
 | Dataset name         | Link to Kaggle datasets                                                     |
-| ------------------ | ----------------------------- | --------------------------------------------------------------------------- |
+| ------------------ | ----------------------------- |
 | keras_efficientnet_whl      | https://www.kaggle.com/alanchn31/keras-efficientnet-whl   |
 | nfnets_keras    | https://www.kaggle.com/dsofen/nfnets-keras |
 | tfroberta_base_indonesian    | https://www.kaggle.com/mfalfafa/tfroberta-base-indonesian |
@@ -66,7 +66,7 @@ Dependency datasets are used for training the model and submitting the solution.
 ## LB/Leaderboard Score
 
 | Notebook filename | Submission filename    | Public LB   | Private LB  |
-| ----------------- | ---------------------- | -------------------- | ----------- | ----------- |
+| ----------------- | ---------------------- | ----------- | ----------- |
 | final-solution.ipynb   | submission.csv         | **0.744** | **0.733** |
 
 
