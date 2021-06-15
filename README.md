@@ -57,12 +57,12 @@ The models are generated using training notebooks. This models can be used to ma
 
 Dependency datasets are used for training the model and submitting the solution.
 
-| Dataset name         | Link to Kaggle datasets                                                     |
-| ------------------ | ----------------------------- |
-| keras_efficientnet_whl      | https://www.kaggle.com/alanchn31/keras-efficientnet-whl   |
-| nfnets_keras    | https://www.kaggle.com/dsofen/nfnets-keras |
-| tfroberta_base_indonesian    | https://www.kaggle.com/mfalfafa/tfroberta-base-indonesian |
-| NFNET_Model_Checkpoints_270421    | https://www.kaggle.com/dsofen/nfnet-model-checkpoints-270421 |
+| Dataset name         | Description		| Link to Kaggle datasets                                                     |
+| ------------------ | ------------------ | ----------------------------- |
+| keras_efficientnet_whl      | Python libraries for Keras EfficientNet model | https://www.kaggle.com/alanchn31/keras-efficientnet-whl   |
+| nfnets_keras    | Python libraries for NFNet model | https://www.kaggle.com/dsofen/nfnets-keras |
+| tfroberta_base_indonesian    | Pretrained model for RoBERTa-Base-Id | https://www.kaggle.com/mfalfafa/tfroberta-base-indonesian |
+| NFNET_Model_Checkpoints_270421    | Pretrained models for NFNet | https://www.kaggle.com/dsofen/nfnet-model-checkpoints-270421 |
 
 
 ## LB/Leaderboard Score
